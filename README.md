@@ -1,4 +1,4 @@
-# 🤟 AI Sign Language Recognition & Translation Platform  
+# AI Sign Language Recognition & Translation Platform  
 ### Full-Stack Web Application with Real-Time Gesture Detection
 
 ---
@@ -48,39 +48,7 @@ SVM Machine Learning Model
 Real-Time Prediction Output
 ```
 
-indianSLwithhindi/
-│
-├── manage.py
-├── requirements.txt
-├── db.sqlite3
-│
-├── A2SL/ → Main Django Project Folder
-│ ├── init.py
-│ ├── settings.py
-│ ├── urls.py
-│ ├── wsgi.py
-│ ├── asgi.py
-│ └── views.py
-│
-├── templates/ → HTML Files
-│ ├── base.html
-│ ├── index.html
-│ └── animation.html
-│
-├── static/ → CSS / JS (if used)
-│ ├── css/
-│ └── js/
-│
-├── assets/ → Sign Language Videos
-│ ├── A.mp4
-│ ├── B.mp4
-│ ├── Hello.mp4
-│ ├── Thank.mp4
-│ └── ...
-│
-├── media/ → (Optional uploads)
-│
-└── tf-env/ → Virtual Environment
+
 
 ---
 
@@ -230,7 +198,7 @@ This makes the model:
 ## 🔹 Static Alphabet Model
 
 - 63 landmark features
-- SVM (RBF kernel)
+- SVM 
 - StandardScaler preprocessing
 - Label encoding
 - 80/20 train-test split
@@ -468,7 +436,7 @@ python record_alphabets_static.py
 ```bash
 python train_alphabets_static.py
 ```
-- for **words** part, simply add the file names for recording and training words in the script
+- for **words** part, simply exchange the file names for recording and training words in the script
 
 
 
